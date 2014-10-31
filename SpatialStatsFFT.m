@@ -4,6 +4,8 @@ function [T xx] = SpatialStatsFFT( A1,A2, varargin)
 % optimized using fast Fourier transforms to expedite the computation of
 % the convolution.
 %
+% THIS CODE WAS WRITTEN BY DR. TONY FAST https://github.com/tonyfast
+%
 % Nonperiodic and periodic refer the the boundary conditions under which
 % the material information was generated.  Experimental information will
 % always have nonperiodic boundary conditions while some simulations with
